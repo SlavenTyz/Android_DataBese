@@ -14,7 +14,6 @@ import kotlinx.coroutines.withContext
 class ViewFragment : Fragment(R.layout.fragment_view) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-
         super.onViewCreated(view, savedInstanceState)
         val recyclerView = view.findViewById<RecyclerView>(R.id.messages)
         val backButton = view.findViewById<Button>(R.id.back)

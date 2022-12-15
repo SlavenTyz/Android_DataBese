@@ -7,6 +7,5 @@ import androidx.room.RoomDatabase
 
 abstract class PostDatabase: RoomDatabase() {
 
-
     abstract fun getDao(): Dao
 }

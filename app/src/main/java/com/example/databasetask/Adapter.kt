@@ -9,7 +9,9 @@ import androidx.recyclerview.widget.RecyclerView
 
 class Adapter(val context: Context, val list: List<Post>) :
     RecyclerView.Adapter<Adapter.ViewHolder>() {
+
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+
         val title: TextView = view.findViewById(R.id.titleText)
         val body: TextView = view.findViewById(R.id.bodyText)
     }

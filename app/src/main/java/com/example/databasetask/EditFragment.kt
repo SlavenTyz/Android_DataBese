@@ -7,11 +7,13 @@ import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.Dispatchers
+
 import kotlinx.coroutines.launch
 
 class EditFragment : Fragment(R.layout.fragment_edit) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
         super.onViewCreated(view, savedInstanceState)
         val titleText = view.findViewById<EditText>(R.id.titleText)
         val messageText = view.findViewById<EditText>(R.id.messageText)

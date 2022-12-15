@@ -9,6 +9,7 @@ class Post(
 
     val id: Int = 0,
 
+
     val title: String,
 
     val body: String

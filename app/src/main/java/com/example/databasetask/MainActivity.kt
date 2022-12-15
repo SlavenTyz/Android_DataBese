@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
 
 
     lateinit var editFragment: EditFragment
+
     lateinit var viewFragment: ViewFragment
     lateinit var database: PostDatabase
     override fun onCreate(savedInstanceState: Bundle?) {

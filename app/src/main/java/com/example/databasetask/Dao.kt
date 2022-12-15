@@ -8,6 +8,7 @@ interface Dao {
     @Query("SELECT * FROM Post")
 
 
+
     fun getPosts(): List<Post>
 
     @Insert
